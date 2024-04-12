@@ -35,6 +35,4 @@ function solution(babbling) {
   return answer;
 }
 
-console.log(solution(["ayaye", "uuu", "yeye", "yemawoo", "ayaayaa"]));
-
-// 연속되는 옹알이는 안되지만 여러 번은 됨,,
+solution(["ayaye", "uuu", "yeye", "yemawoo", "ayaayaa"]);
