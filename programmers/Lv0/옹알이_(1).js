@@ -5,9 +5,7 @@ function solution(babbling) {
   babbling.map((item) => {
     let babble = item;
 
-    BABY_CAN_BABBLE.filter((item2) => {
-      babble = babble.replace(item2, " ");
-    });
+    BABY_CAN_BABBLE.filter((item2) => (babble = babble.replace(item2, " ")));
 
     babble.trim() === "" && answer++;
   });
