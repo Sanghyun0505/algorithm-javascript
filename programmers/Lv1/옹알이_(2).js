@@ -34,5 +34,3 @@ function solution(babbling) {
 
   return answer;
 }
-
-solution(["ayaye", "uuu", "yeye", "yemawoo", "ayaayaa"]);
