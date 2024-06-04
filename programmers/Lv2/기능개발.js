@@ -31,5 +31,3 @@ function solution(progresses, speeds) {
 
   return answer;
 }
-
-console.log(solution([95, 95, 95, 95], [4, 3, 2, 1]));
