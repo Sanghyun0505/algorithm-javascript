@@ -20,5 +20,3 @@ function solution(prices) {
 
   return answer;
 }
-
-console.log(solution([1, 2, 3, 2, 3]));
