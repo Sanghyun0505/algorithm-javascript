@@ -11,11 +11,7 @@ function solution(elements) {
         let sum = 0;
 
         for (let k = j; k < j + i; k++) {
-          if (k >= elements.length) {
-            sum += elements[k - elements.length];
-          } else {
-            sum += elements[k];
-          }
+          sum += elements[k >= elements.length ? k - elements.length : k];
         }
 
         answer.push(sum);
